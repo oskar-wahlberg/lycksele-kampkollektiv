@@ -31,7 +31,3 @@ INSERT INTO users (
     "admin",
     "admin123"
 );
-
-/*
- * Test for pull
- */
