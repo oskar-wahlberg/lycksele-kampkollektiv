@@ -9,3 +9,9 @@ Insåg också att jag var tvungen att lägga in en till sida för Bully Proof, s
 Forstatt utökning av sitemap
 
 }
+
+2017-10-10 {
+
+Implementerade Git in i mitt projekt så att jag har en versionshanterare i mitt projekt.
+
+}
