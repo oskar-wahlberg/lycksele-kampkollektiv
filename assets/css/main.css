@@ -1,0 +1,252 @@
+/*
+ * GLOBAL STYLESHEET FOR TWEAKING GENERAL THINGS ON EVERY PAGE.
+ * FOR EXAMPLE, THE GLOBAL NAV WILL BE STYLED HERE.
+ */
+
+@charset "utf-8";
+
+@font-face {
+    font-family: "Acme";
+    src: url(../data/fonts/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Fjalla One";
+    src: url(../data/fonts/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../data/fonts/Rubik-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "global-nav main-content";
+}
+
+/*
+ * NAV STYLING
+ */
+
+.global-nav {
+    grid-area: global-nav;
+    
+    min-height: 100vh;
+    
+    border-right: 5px solid #333;
+    
+    background: #222;
+}
+
+/*
+ * LOGO STYLING
+ */
+
+.logo-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 180px;
+    height: 180px;
+    
+    margin: 20px auto 0 auto;
+    
+    border: 5px solid #ccc;
+    border-radius: 50px;
+    
+    background: #fcfcfc;
+}
+
+.logo-placeholder img {
+    cursor: pointer;
+}
+
+/*
+ * LINK STYLING
+ */
+
+.link-holder {
+    width: 100%;
+    min-height: 150px;
+    margin-top: 30px;
+}
+.link-list { width: 100%; min-height: 50px; }
+
+.link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: wrap;
+    width: 100%;
+    height: 75px;
+    border-top: 2px solid #333;
+}
+
+.link a {
+    display: block;
+    width: 100%;
+    height: 75px;
+    
+    padding-left: 15px;
+    
+    color: #fcfcfc;
+    font-family: 'Fjalla One';
+    font-size: 24px;
+    line-height: 75px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* DROPDOWN LINK */
+
+.dropdown-link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    
+    border: none;
+    
+    background: none;
+}
+
+.dropdown-link p {
+    display: inline-block;
+    height: 75px;
+    
+    padding-left: 15px;
+    
+    color: #fcfcfc;
+    font-family: 'Fjalla One';
+    font-size: 24px;
+    line-height: 75px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.icons {
+    width: 20%;
+    height: 75px;
+}
+
+.ddl-icon {
+    position: relative;
+    right: 0;
+    color: #fcfcfc;
+    font-size: 24px;
+    line-height: 75px;
+}
+
+.ddn-link-list {
+    width: 100%;
+    
+}
+
+.ddn-link-list .link {
+    background: #1b1b1b;
+}
+
+.ddn-link-list .link a {
+    padding-left: 30px;
+}
+
+.last-link {
+    border-bottom: 2px solid #333;
+}
+
+/*
+ * CREDIT TO DEVELOPER
+ */
+
+.dev-ref {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+    width: 100%;
+    height: 100px;
+    
+    margin-top: 100px;
+}
+
+.dev-ref p {
+    color: #171717;
+}
+
+/*
+ * ADMIN STYLING
+ *
+ * The button is for the admin, once clicked, a form will appear on the screen.
+ * The admin will then be asked to log in, and once done, you will be able
+ * to edit images on the page and such.
+ */
+
+.admin-button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    
+    color: #555;
+    
+    cursor: pointer;
+}
+
+/*
+ * MAIN-CONTENT STYLING
+ */
+
+.main-content {
+    grid-area: main-content;
+}
+
+.main-bg-holder {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.main-bg {
+    width: 150vh;
+    height: 150vh;
+}
+
+/*
+ * GLOBAL CLASSES
+ */
+
+.active {
+    background: #111;
+}
+
+.link-list .ddn-link-list .active {
+    background: #111;
+}
+
+.clickable-link {
+    cursor: pointer;
+}
+
+.clickable-link:hover {
+    background: #333;
+}

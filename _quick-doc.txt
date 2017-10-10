@@ -1,0 +1,11 @@
+2017-10-05 {
+
+Fixade knapparna till bildspelet för att senare anordna en funktion så att det går att bläddra bild i bildspelet.
+
+Fixade också texterna som ska stå på både Muay Thai sidan och Brasiliansk Jiu Jitsu sidan.
+
+Insåg också att jag var tvungen att lägga in en till sida för Bully Proof, så jag gjorde det också, men den är inte fixad än.
+
+Forstatt utökning av sitemap
+
+}

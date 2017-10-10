@@ -1,0 +1,146 @@
+/*
+ * INDEX STYLESHEET
+ */
+
+@charset "utf-8";
+
+@font-face {
+    font-family: "Acme";
+    src: url(../data/fonts/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Fjalla One";
+    src: url(../data/fonts/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../data/fonts/Rubik-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * MAIN CONTENT
+ */
+
+/*
+ * HEADER STYLING
+ */
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    min-height: 100px;
+}
+
+.page-header h1 {
+    width: auto;
+    padding: 25px 0 15px 25px;
+    
+    color: #000;
+    font-family: 'Acme';
+    font-size: 80px;
+}
+
+.header-quote-container {
+    width: 225px;
+    
+    position: absolute;
+    top: -15px;
+    right: 0;
+    
+    margin-top: 40px;
+    margin-right: 25px;
+    
+    padding: 10px;
+    border: 1px dashed black;
+    border-radius: 25px;
+}
+
+.header-quote-container p {
+    font-family: 'Rubik';
+    font-style: italic;
+    line-height: 20px;
+    text-align: center;
+}
+
+.page-sub-header {
+    width: 100%;
+    min-height: 50px;
+}
+
+/*
+ * IMAGE SLIDER STYLING
+ */
+
+.image-slider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 500px;
+    
+    margin: auto;
+    
+    background-color: rgba(10, 10, 10, .3);
+}
+
+.image-slider-container .is-img-holder {
+    display: block;
+    width: auto;
+    height: 90%;
+}
+
+.image-slider-container .is-img-holder img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.arrow-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 15%;
+    height: 100%;
+    
+    border: none;
+    
+    background-color: rgba(10, 10, 10, 0);
+    
+    transition: all .2s;
+}
+
+.arrow-holder:hover {
+    background-color: rgba(10, 10, 10, .15);
+}
+
+.is-left, .is-right {
+    color: rgba(10, 10, 10, .35);
+    transition: all .2s;
+}
+
+.arrow-holder:hover .is-left, .arrow-holder:hover .is-right {
+    color: rgba(10, 10, 10, .75);
+}
+
+.page-sub-header h2 {
+    width: 60%;
+    
+    margin: 15px auto 0 auto;
+    
+    font-family: 'Acme';
+    font-size: 38px;
+    font-style: italic;
+    text-align: center;
+}
