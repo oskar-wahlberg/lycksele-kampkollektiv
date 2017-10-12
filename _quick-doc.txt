@@ -12,6 +12,6 @@ Forstatt utökning av sitemap
 
 2017-10-10 {
 
-Implementerade Git in i mitt projekt så att jag har en versionshanterare i mitt projekt.
+Implementerade Git in i mitt projekt så att jag har en versionshanterare i mitt projekt. (Förklara lite vad git är i rapporten)
 
 }
