@@ -87,15 +87,17 @@ session_start();
                 
                 <header class="page-sub-header">
                     <section class="image-slider-container">
-                        <button class="arrow-holder" id="is-prev">
+                        <button class="arrow-holder" id="is-prev" onclick="ImageSwitch(-1);">
                             <i class="fa fa-chevron-left fa-4x is-left"></i>
                         </button>
                         
                         <div class="is-img-holder">
-                            <img src="assets/images/image-slider/1.jpg">
+                            <img src="assets/images/image-slider/1.jpg" class="i_is">
+                            <img src="assets/images/image-slider/temp/1000x800.png" class="i_is">
+                            <img src="assets/images/image-slider/temp/754x100.png" class="i_is">
                         </div>
                         
-                        <button class="arrow-holder" id="is-next">
+                        <button class="arrow-holder" id="is-next" onclick="ImageSwitch(1);">
                             <i class="fa fa-chevron-right fa-4x is-right"></i>
                         </button>
                     </section>
@@ -106,5 +108,6 @@ session_start();
         </div>
         
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/index-image-slider.js"></script>
     </body>
 </html>

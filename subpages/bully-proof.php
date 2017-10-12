@@ -74,6 +74,13 @@ session_start();
                 <section class="main-bg-holder">
                     <img src="../assets/images/kampkollektiv_logo_B&W.png" alt="body-bg" class="main-bg">
                 </section>
+                
+                <section class="content-box">
+                    <h1>Bully Proof</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi expedita adipisci atque quidem numquam quibusdam ipsa incidunt recusandae quisquam fuga dolores commodi explicabo voluptatem officiis ea, maxime corporis amet. Accusantium.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ducimus aliquid blanditiis quo molestiae ea modi, eaque quisquam! Inventore recusandae accusantium magni ad sunt nulla perferendis nihil maiores quas officiis!</p>
+                    <p class="last-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt animi amet adipisci omnis in et eveniet dolores excepturi nemo, soluta asperiores aspernatur consequuntur nostrum fugiat saepe optio dolor dolorem libero.</p>
+                </section>
             </main>
         </div>
         

@@ -15,3 +15,9 @@ Forstatt utökning av sitemap
 Implementerade Git in i mitt projekt så att jag har en versionshanterare i mitt projekt. (Förklara lite vad git är i rapporten)
 
 }
+
+2017-10-12 {
+
+Fixade bully proof sidan, lade in en lorum text för att ha någonting som visar hur den kommer att se ut ungefär då texten som ska ligga där är där. Lorum texten är till som en text mall egentligen.
+
+}
