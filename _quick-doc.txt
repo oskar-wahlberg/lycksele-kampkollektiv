@@ -20,4 +20,6 @@ Implementerade Git in i mitt projekt så att jag har en versionshanterare i mitt
 
 Fixade bully proof sidan, lade in en lorum text för att ha någonting som visar hur den kommer att se ut ungefär då texten som ska ligga där är där. Lorum texten är till som en text mall egentligen.
 
+Gjorde också en ny JavaScript fil där jag fixade så att image slidern på index sidan skulle fungera.
+
 }

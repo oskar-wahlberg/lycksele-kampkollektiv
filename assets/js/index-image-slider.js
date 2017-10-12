@@ -3,6 +3,7 @@
 var img;
 var img_amount;
 var displayed_img = 0;
+var opacity = 1;
 
 // Get all of the images in the image slider
 function GetImages() {
@@ -15,7 +16,6 @@ function GetImages() {
 // Hide all images except for the first one
 function HideImages() {
     var i;
-    
     for (i = 1; i < img_amount; i++) {
         img[i].style.display = "none";
     }
