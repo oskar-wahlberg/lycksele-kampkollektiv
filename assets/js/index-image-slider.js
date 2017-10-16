@@ -4,7 +4,6 @@ var img;
 var img_amount;
 var img_indicators;
 var displayed_img = 0;
-var opacity = 1;
 
 // Get all of the images in the image slider
 function GetImages() {
