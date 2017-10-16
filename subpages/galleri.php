@@ -8,11 +8,11 @@ session_start();
 <html lang="sv-se">
     <head>
         <meta charset="utf-8">
-        <title>Lycksele Kampkollektiv Muay Thai</title>
+        <title>Lycksele Kampkollektiv</title>
         <link rel="stylesheet" href="../assets/lib/css/reset.css">
         <link rel="stylesheet" href="../assets/lib/css/font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../assets/css/main.css">
-        <link rel="stylesheet" href="../assets/css/muay-thai.css">
+        <link rel="stylesheet" href="../assets/css/galleri.css">
     </head>
     
     <body>
@@ -29,7 +29,7 @@ session_start();
                         </li>
                         
                         <li class="link clickable-link">
-                            <button class="dropdown-link clickable-link" onclick="ToggleDropDown();">
+                            <button class="dropdown-link" onclick="ToggleDropDown();">
                                 <p>Sporter</p>
                                 <div class="icons">
                                     <i class="ddl-icon fa fa-plus" id="ddn-open"></i>
@@ -39,8 +39,8 @@ session_start();
                         </li>
                         
                         <ul class="ddn-link-list" id="ddn-list">
-                            <li class="link active">
-                                <a>Muay Thai</a>
+                            <li class="link clickable-link">
+                                <a href="muay-thai.php">Muay Thai</a>
                             </li>
                                     
                             <li class="link clickable-link">
@@ -52,8 +52,8 @@ session_start();
                             </li>
                         </ul>
                         
-                        <li class="link clickable-link">
-                            <a href="galleri.php">Galleri</a>
+                        <li class="link active">
+                            <a>Galleri</a>
                         </li>
                         
                         <li class="link clickable-link last-link">
@@ -72,15 +72,7 @@ session_start();
             
             <main class="main-content">
                 <section class="main-bg-holder">
-                    <img src="../assets/images/muay-thai-bg.png" alt="body-bg" class="main-bg">
-                </section>
-                
-                <section class="content-box">
-                    <h1>Muay Thai</h1>
-                    <p>Thaiboxning (Muay Thai på thailändska) är en kampsport från Thailand där man tävlar i fullkontakt.</p>
-                    <p>Sporten i sig är hård, men fortfarande en enkel tävlingssport med rötterna i Thailand.</p>
-                    <p>Kampsporten har sitt ursprung från den forntida thailändska arméns närstridssystem, kallat Muay Boran.</p>
-                    <p class="last-p">Självförsvar, vapen och så vidare har skalats bort under årtal av hårt urval då stilen har optimerats för ringen och de tävlingsregler som gäller idag.</p>
+                    <img src="../assets/images/kampkollektiv_logo_B&W.png" alt="body-bg" class="main-bg">
                 </section>
             </main>
         </div>

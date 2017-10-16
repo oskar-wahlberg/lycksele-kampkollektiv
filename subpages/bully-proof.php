@@ -53,11 +53,11 @@ session_start();
                         </ul>
                         
                         <li class="link clickable-link">
-                            <a>ITEM #3</a>
+                            <a href="galleri.php">Galleri</a>
                         </li>
                         
                         <li class="link clickable-link last-link">
-                            <a>ITEM #4</a>
+                            <a href="om-oss.php">Om oss</a>
                         </li>
                     </ul>
                 </section>
