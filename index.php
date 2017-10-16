@@ -102,6 +102,14 @@ session_start();
                         </button>
                     </section>
                     
+                    <!-- IMAGE SLIDER INDICATION START -->
+                    <section class="image-slider-indication">
+                        <img src="assets/images/image-slider/1.jpg" class="i_id" onclick="ImageIndicatorSwitch(0);">
+                        <img src="assets/images/image-slider/temp/1000x800.png" class="i_id" onclick="ImageIndicatorSwitch(1);">
+                        <img src="assets/images/image-slider/temp/754x100.png" class="i_id" onclick="ImageIndicatorSwitch(2);">
+                    </section>
+                    <!-- IMAGE SLIDER INDICATION END -->
+                    
                     <h2>Kom och träna Muay Thai och Braziliansk Jiu Jitsu i Lycksele!</h2>
                 </header>
             </main>

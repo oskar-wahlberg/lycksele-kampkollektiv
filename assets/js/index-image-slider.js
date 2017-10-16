@@ -46,5 +46,15 @@ function ImageSwitch(x) {
     }
 }
 
+// IMAGE SLIDER INDICATION START
+
+function ImageIndicatorSwitch(x) {
+    img[displayed_img].style.display = "none";
+    displayed_img = x;
+    img[displayed_img].style.display = "block";
+}
+
+// IMAGE SLIDER INDICATION END
+
 // Run a function once the page has been loaded
 window.onload = GetImages();

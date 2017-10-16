@@ -136,10 +136,44 @@
     color: rgba(10, 10, 10, .75);
 }
 
+/* IMAGE SLIDER INDICATION START */
+
+.image-slider-indication {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    
+    width: calc(100% - 30px);
+    min-height: 110px;
+    
+    padding: 10px 15px;
+    
+    background-color: rgba(10, 10, 10, .35);
+}
+
+.image-slider-indication .i_id {
+    width: auto;
+    height: 85px;
+    
+    margin-bottom: 10px;
+    
+    transition: all .3s;
+    
+    cursor: pointer;
+}
+
+.image-slider-indication .i_id:hover {
+    height: 100px;
+}
+
+/* IMAGE SLIDER INDICATION END */
+
 .page-sub-header h2 {
     width: 60%;
     
     margin: 15px auto 0 auto;
+    padding-bottom: 15px;
     
     font-family: 'Acme';
     font-size: 38px;
