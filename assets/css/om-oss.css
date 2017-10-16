@@ -1,0 +1,20 @@
+/*
+ * OM-OSS STYLESHEET
+ */
+
+@charset "utf-8";
+
+@font-face {
+    font-family: "Acme";
+    src: url(../data/fonts/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Fjalla One";
+    src: url(../data/fonts/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../data/fonts/Rubik-Regular.ttf);
+}

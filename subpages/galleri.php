@@ -74,6 +74,10 @@ session_start();
                 <section class="main-bg-holder">
                     <img src="../assets/images/kampkollektiv_logo_B&W.png" alt="body-bg" class="main-bg">
                 </section>
+                
+                <header class="page-header">
+                    <h1>Galleri</h1>
+                </header>
             </main>
         </div>
         
