@@ -118,7 +118,7 @@
     
     border: none;
     
-    background-color: rgba(10, 10, 10, 0);
+    background-color: rgba(10, 10, 10, 0.03);
     
     transition: all .2s;
 }
