@@ -3,3 +3,15 @@
 I index Image Slidern så skapade jag en img indicator som är klickbar för att snabbt kunna byta till den bild man vill se utan att behöva bläddra igenom alla bilder.
 
 }
+
+2017-11-16 {
+
+Började fundera på hur jag skulle lösa problemet med att spara en bild i en databas.
+Ref video: https://www.youtube.com/watch?v=h1nOEX5UPLM
+Löste det med longblob
+
+Började också skriva php koden för att kunna läsa bilder från databasen. PHP filen för att kunna ladda upp bilder kommer att komma till sen när sidan är färdig och jag börjar jobba på hur det ska se ut när man är inloggad.
+
+Fixade också så att sidan läser in bilderna från databasen, ger dem rätt klass namn, rätt funktion osv..
+
+}

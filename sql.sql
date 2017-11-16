@@ -31,3 +31,21 @@ INSERT INTO users (
     "admin",
     "admin123"
 );
+
+/*
+ * Creating a table for storing images.
+ *
+ * longblob = variable for storing images (max 2MB)
+ */
+
+CREATE TABLE images (
+    image_id int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    image longblob
+);
+
+/*
+ * Adding one more column for a number that can be user to check how many images there is in
+ * the database.
+ */
+
+ALTER TABLE 'images' ADD 'amount_check' INT(11) not null DEFAULT '1' FIRST;

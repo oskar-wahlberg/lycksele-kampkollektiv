@@ -92,10 +92,9 @@ session_start();
                         </button>
                         
                         <div class="is-img-holder">
-                            <img src="assets/images/image-slider/1.jpg" class="i_is">
-                            <img src="assets/images/image-slider/2.jpg" class="i_is">
-                            <img src="assets/images/image-slider/temp/1000x800.png" class="i_is">
-                            <img src="assets/images/image-slider/temp/754x100.png" class="i_is">
+                            <?php
+                            include_once("assets/php/index_get_images_big.php");
+                            ?>
                         </div>
                         
                         <button class="arrow-holder" id="is-next" onclick="ImageSwitch(1);">
@@ -105,10 +104,14 @@ session_start();
                     
                     <!-- IMAGE SLIDER INDICATION START -->
                     <section class="image-slider-indication">
+                        <?php
+                        include_once "assets/php/index_get_images_small.php";
+                        ?>
+<!--
                         <img src="assets/images/image-slider/1.jpg" class="i_id" onclick="ImageIndicatorSwitch(0);">
                         <img src="assets/images/image-slider/2.jpg" class="i_id" onclick="ImageIndicatorSwitch(1);">
-                        <img src="assets/images/image-slider/temp/1000x800.png" class="i_id" onclick="ImageIndicatorSwitch(2);">
-                        <img src="assets/images/image-slider/temp/754x100.png" class="i_id" onclick="ImageIndicatorSwitch(3);">
+                        <img src="assets/images/image-slider/3.jpg" class="i_id" onclick="ImageIndicatorSwitch(2);">
+-->
                     </section>
                     <!-- IMAGE SLIDER INDICATION END -->
                     

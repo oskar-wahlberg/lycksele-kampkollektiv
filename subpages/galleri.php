@@ -78,6 +78,12 @@ session_start();
                 <header class="page-header">
                     <h1>Galleri</h1>
                 </header>
+                
+                <section class="img-grid">
+                    <?php
+                    include_once '../assets/php/galleri_get_images.php';
+                    ?>
+                </section>
             </main>
         </div>
         
