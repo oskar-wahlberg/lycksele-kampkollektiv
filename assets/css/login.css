@@ -7,32 +7,37 @@
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
     width: 100vw;
     height: 100vh;
+    
+    background: #0F0F0F;
+}
+
+.form-holder {
+    height: 100%;
 }
 
 .home-link {
+    display: block;
+    height: 40px;
     margin-bottom: 15px;
     padding: 10px;
     
-    border: 2px solid #dbdbdb;
-    border-radius: 5px;
+    border: 2px solid #ed4310;
     
-    background: #e2e2e2;
+    background: #ff3e04;
     
     color: #000;
     font-family: arial;
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .home-link:hover {
-    background: #cecece;
+    background: #e63500;
 }
 
 .login-form {
@@ -41,14 +46,16 @@
     align-items: center;
     flex-flow: column;
     
-    width: 30vw;
-    height: 40vh;
+    width: 50%;
+    height: 250px;
     
-    border: 2px solid #dbdbdb;
+    margin: 0 auto;
+    
+    border: 2px solid #101010;
     
     border-radius: 100px;
     
-    background: #e2e2e2;
+    background: #262626;
 }
 
 .login-form-username, .login-form-password, .login-form-submit {

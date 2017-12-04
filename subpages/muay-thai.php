@@ -9,6 +9,9 @@ session_start();
     <head>
         <meta charset="utf-8">
         <title>Lycksele Kampkollektiv Muay Thai</title>
+        <!-- Icon in title -->
+        <link rel="icon" type="image/png" href="../assets/images/icon/favicon-32x32.png" sizes="32x32">
+        <!-- CSS -->
         <link rel="stylesheet" href="../assets/lib/css/reset.css">
         <link rel="stylesheet" href="../assets/lib/css/font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../assets/css/main.css">
