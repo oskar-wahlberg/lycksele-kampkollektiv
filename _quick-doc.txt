@@ -34,6 +34,8 @@ Fixade php koden för att lägga till en användare i databasen.
 
 Fixade om oss sidan med den text som ska stå där.
 
+Fixede modal image funktionen till galleri sidan.
+
 }
 
 TODO:
