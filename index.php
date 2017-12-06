@@ -67,8 +67,8 @@ session_start();
                 </section>
                 
                 <section class="dev-ref">
-                    <p>Webpage developed</p>
-                    <p>by Oskar Wahlberg</p>
+                    <p>Copyright © 2017-2018</p>
+                    <p>Oskar Wahlberg</p>
                 </section>
                 
                 <i class="fa fa-cog fa-lg admin-button" onclick="GoToLoginFromIndex();"></i>

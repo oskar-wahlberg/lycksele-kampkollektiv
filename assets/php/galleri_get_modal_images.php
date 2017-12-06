@@ -1,10 +1,8 @@
 <?php
 
 /*
-PHP file for getting all of the images stored in the database. This file will be
-used on the page 'galleri.php'.
-There will be a similar file for the page 'index.php', which will work for getting
-the images for the image slider.
+PHP file for getting all of the images stored in the databse. This file will be used on the page 'galleri.php'.
+There will be a similar file for the page 'index.php', which will work for getting the images for the image slider.
 */
 
 // Include database connector
@@ -18,13 +16,11 @@ $resultCheck = mysqli_num_rows($result);
 // Same if 4, it will give out 4
 
 // A for loop for creating the elements of the images.
-$j = 0;
 for ($i = 1; $i <= $resultCheck; $i++) {
     $img = "SELECT * FROM images WHERE image_id=$i";
     $sth = $conn->query($img);
     $result=mysqli_fetch_array($sth);
-    echo '<img src="data:image/jpeg;base64,'.base64_encode( $result['image'] ).'" class="grid-item" id="small-i-'.$i.'" onclick="ShowImage('.$j.');"/>';
-    $j++;
+    echo '<img src="data:image/jpeg;base64,'.base64_encode($result['image']).'" class="modal-img" id="big-i-'.$i.'"/>';
 }
 
 ?>

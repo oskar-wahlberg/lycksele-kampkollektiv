@@ -66,8 +66,8 @@ session_start();
                 </section>
                 
                 <section class="dev-ref">
-                    <p>Webpage developed</p>
-                    <p>by Oskar Wahlberg</p>
+                    <p>Copyright © 2017-2018</p>
+                    <p>Oskar Wahlberg</p>
                 </section>
                 
                 <i class="fa fa-cog fa-lg admin-button" onclick="GoToLogin();"></i>
@@ -87,9 +87,17 @@ session_start();
                     include_once '../assets/php/galleri_get_images.php';
                     ?>
                 </section>
+                
+                <section class="modal-image-container" id="mih" onclick="CloseImg();">
+                    <i class="close-modal fa fa-close" onclick="CloseImg();"></i>
+                    <?php
+                    include_once '../assets/php/galleri_get_modal_images.php'
+                    ?>
+                </section>
             </main>
         </div>
         
         <script src="../assets/js/main.js"></script>
+        <script src="../assets/js/modal_image.js"></script>
     </body>
 </html>
