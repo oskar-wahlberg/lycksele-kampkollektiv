@@ -18,3 +18,45 @@
     font-family: "Rubik";
     src: url(../data/fonts/Rubik-Regular.ttf);
 }
+
+/* Main Styling */
+
+.page-header {
+    width: 750px;
+    
+    margin: 15px auto 0 auto;
+    
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+}
+
+.page-header h1 {
+    font-family: 'Acme';
+    font-size: 72px;
+    text-align: center;
+}
+
+.page-content {
+    width: 80%;
+    min-height: 100px;
+    
+    margin: 10px auto 10px auto;
+    
+    padding: 15px;
+    
+    box-shadow: 0 0 5px black;
+    
+    border-radius: 15px;
+    
+    background: white;
+}
+
+.page-content p {
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-size: 24px;
+}
+
+.page-content .last-p {
+    margin-bottom: 0;
+}

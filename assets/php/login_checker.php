@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
     }
 } else {
     
-    // Take the user back to the index page and give and error message in the url.
+    // Take the user back to the index page and give an error message in the url.
     header("Location: ../../index.php?login=error");
     exit();
 }

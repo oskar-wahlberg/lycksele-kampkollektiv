@@ -66,8 +66,8 @@ session_start();
                 </section>
                 
                 <section class="dev-ref">
-                    <p>Webpage developed</p>
-                    <p>by Oskar Wahlberg</p>
+                    <p>Copyright © 2017-2018</p>
+                    <p>Oskar Wahlberg</p>
                 </section>
                 
                 <i class="fa fa-cog fa-lg admin-button" onclick="GoToLogin();"></i>
@@ -76,6 +76,17 @@ session_start();
             <main class="main-content">
                 <section class="main-bg-holder">
                     <img src="../assets/images/kampkollektiv_logo_B&W.png" alt="body-bg" class="main-bg">
+                </section>
+                
+                <section class="page-header">
+                    <h1>Om Oss</h1>
+                </section>
+                
+                <section class="page-content">
+                    <p>Hösten 2009 började några kampsportsintresserade lyckselebor träffas och träna Brazilian Jiu-Jitsu, BJJ. Gruppen utökades och i januari 2010 blev man officiellt en förening. Allteftersom växte även intresset för MuayThai – thaiboxning och nu bedrivs träning och tävling inom båda sporterna.</p>
+                    <p> Föreningen är medlem i Svenska Budo &amp; Kampsportsförbundet och Sveriges Riksidrottsförbund. Vi är även knutna till Gracie Barra som är en världens största BJJ-skolor.</p>
+                    <p>Sommaren 2014 började vi även hålla fyspass för de som är intresserad att röra på kroppen och Bully Proof för barnen.</p>
+                    <p class="last-p">Föreningen har en styrelse som sammanträder minst en gång/år.</p>
                 </section>
             </main>
         </div>

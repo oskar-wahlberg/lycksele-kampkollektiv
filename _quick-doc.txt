@@ -28,6 +28,19 @@ Måste fixa så att det går att lägga in användare med det formuläret, men d
 
 }
 
-TODO:
+2017-12-06 {
 
- * Fixa php för att lägga till användare.
+Fixade php koden för att lägga till en användare i databasen.
+
+Fixade om oss sidan med den text som ska stå där.
+
+}
+
+TODO:
+    * Image Upload if you are logged in
+    * Functions if you are logged in on the logged in page.
+        Ex.
+        * Remove user
+        * Remove image
+        so on..
+    * Responsive Layout
