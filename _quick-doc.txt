@@ -1,4 +1,4 @@
-Total arbetstid: 23h 37min
+Total arbetstid: 24h 23min
 
 2017-10-16 {
 
@@ -17,3 +17,17 @@ Började också skriva php koden för att kunna läsa bilder från databasen. PH
 Fixade också så att sidan läser in bilderna från databasen, ger dem rätt klass namn, rätt funktion osv..
 
 }
+
+2017-12-04 {
+
+Gjorde om designen på login och logout sidorna. Jag var inte nöjd med hur den såg ut så därför gjorde jag om den.
+
+Sedan så började jag också fixa lite på inställningssidan då man är inloggad vad som ska finnas. Det jag la till är en plats där man kan lägga till fler användare.
+
+Måste fixa så att det går att lägga in användare med det formuläret, men det kommer senare.
+
+}
+
+TODO:
+
+ * Fixa php för att lägga till användare.
