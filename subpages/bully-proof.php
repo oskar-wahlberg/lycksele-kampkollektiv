@@ -80,9 +80,17 @@ session_start();
                 
                 <section class="content-box">
                     <h1>Bully Proof</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi expedita adipisci atque quidem numquam quibusdam ipsa incidunt recusandae quisquam fuga dolores commodi explicabo voluptatem officiis ea, maxime corporis amet. Accusantium.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ducimus aliquid blanditiis quo molestiae ea modi, eaque quisquam! Inventore recusandae accusantium magni ad sunt nulla perferendis nihil maiores quas officiis!</p>
-                    <p class="last-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt animi amet adipisci omnis in et eveniet dolores excepturi nemo, soluta asperiores aspernatur consequuntur nostrum fugiat saepe optio dolor dolorem libero.</p>
+                    <p>Detta handlar om att ha kul!</p>
+                    <p>En stor fråga för barnen i dag är förekomsten av mobbning. Jiu-Jitsu är en stor kampsport, inte bara självförsvar i mobbningsfall , men att bygga upp förtroendet för att undvika den helt och hållet.</p>
+                    <p>Bully Proof  och Gracie Barra har utformat en läroplan som delas upp i tre steg:</p>
+                    <p class="p-li">1. Gå iväg</p>
+                    <p class="p-li">2. Stå upp för dig själv</p>
+                    <p class="p-li">3. Skydda dig</p>
+                    <p>Vi tränar tillsammans och lär oss koordination, kondition samt att träna tillsammans med andra för att bygga självförtroende!</p>
+                    <p>Vi kommer träna kullerbyttor och förflyttningar men även på att ta sig ur enklare fasthållningar.</p>
+                    <p>Fokus ligger på kroppskännedom men framförallt att ha roligt!</p>
+                    <p>Vi samlas och tränar ca: en timme i veckan.</p>
+                    <p class="last-p">Obs! Åldersgräns 7år!</p>
                 </section>
             </main>
         </div>

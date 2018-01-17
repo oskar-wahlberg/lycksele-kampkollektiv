@@ -77,6 +77,19 @@ session_start();
                                 </form>
                             </section>
                         </section>
+                        
+                        <section class="action_holder">
+                            <p class="remove_user_link" onclick="ToggleRemoveUserField();">Ta bort användare...</p>
+                            
+                            <section class="remove_user_form_holder" id="RemoveUserField">
+                                <i class="fa fa-close fa-3x close_add_user_field" onclick="ToggleRemoveUserField();"></i>
+                                <form action="../assets/php/remove_user.php" method="POST">
+                                    <input type="text" name="r_username" placeholder="Username" class="remove_user_form_username">
+                                    <input type="password" name="r_password" placeholder="Password" class="remove_user_form_password">
+                                    <input type="submit" name="r_user_submit" value="REMOVE USER" class="remove_user_form_submit">
+                                </form>
+                            </section>
+                        </section>
                     
                         <form action="../assets/php/logout.php" method="POST">
                             <button type="submit" name="submit" class="logout-button">
@@ -95,6 +108,7 @@ session_start();
                 }
 
                 ?>
+                            
             </section>
         </div>
         

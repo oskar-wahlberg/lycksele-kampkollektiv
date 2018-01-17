@@ -118,6 +118,7 @@
     background: #262626;
 }
 
+/* Add User Action Styling */
 .add_user_link {
     margin-top: 20px;
     
@@ -213,6 +214,105 @@
 }
 
 .add_user_form_holder form .add_user_form_submit:hover {
+    background: #ddd;
+}
+
+/* Remove User Action Styling */
+.remove_user_link {
+    margin-top: 20px;
+    
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    
+    color: #f2f2f2;
+    font-size: 18px;
+    font-family: 'Arial';
+    text-decoration: underline;
+    
+    background: #262626;
+    
+    transition: all .3s;
+    
+    cursor: pointer;
+}
+
+.remove_user_link:hover {
+    color: #cecece;
+    background: #202020;
+}
+
+.remove_user_form_holder {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+    flex-wrap: nowrap;
+    
+    margin-top: 5px;
+    
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+    
+    background: #1e1e1e;
+}
+
+.close_remove_user_field {
+    margin-right: 10px;
+    
+    color: #000;
+    
+    transition: all .3s;
+    
+    cursor: pointer;
+}
+
+.close_remove_user_field:hover {
+    color: #111;
+}
+
+.remove_user_form_holder form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.remove_user_form_holder form input {
+    width: 350px;
+    height: 50px;
+    margin-left: 25px;
+    padding-left: 5px;
+}
+
+.remove_user_form_holder form input:placeholder-shown {
+    color: #000;
+    font-size: 24px;
+}
+
+.remove_user_form_username {
+    margin-top: 10px;
+}
+
+.remove_user_form_password {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.remove_user_form_holder form .remove_user_form_submit {
+    width: 355px;
+    margin-bottom: 10px;
+    
+    color: #222;
+    font-size: 24px;
+    
+    background: #eee;
+    
+    transition: all .3s;
+    
+    cursor: pointer;
+}
+
+.remove_user_form_holder form .remove_user_form_submit:hover {
     background: #ddd;
 }
 
