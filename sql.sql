@@ -48,4 +48,4 @@ CREATE TABLE images (
  * the database.
  */
 
-ALTER TABLE 'images' ADD 'amount_check' INT(11) not null DEFAULT '1' FIRST;
+ALTER TABLE images ADD amount_check INT(11) not null DEFAULT '1' FIRST;

@@ -36,6 +36,59 @@
     text-align: center;
 }
 
+/* File upload Styling */
+
+.upload-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    
+    width: 100%;
+    height: 200px;
+}
+
+.form-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    
+    width: 30%;
+    height: 175px;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    background: #eee;
+}
+
+.form-holder h4 {
+    font-family: 'Acme';
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.upload-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: column;
+    height: 75px;
+}
+
+.upload-file {
+    width: 250px;
+    height: 35px;
+}
+
+.upload-submit {
+    width: 250px;
+    height: 35px;
+}
+
+/* Image Grid Styling */
+
 .img-grid {
     margin-top: 10px;
     

@@ -82,6 +82,24 @@ session_start();
                     <h1>Galleri</h1>
                 </header>
                 
+                <?php
+                
+                if(isset($_SESSION['u_id'])) {
+                    echo '
+                        <section class="upload-img-container">
+                            <section class="form-holder">
+                                <h4>Ladda up bild</h4>
+                                <form action="../assets/php/upload-image.php" method="POST" enctype="multipart/form-data" class="upload-form">
+                                    <input type="file" name="file" class="upload-file">
+                                    <input type="submit" value="Ladda Up" name="upload_submit" class="upload-submit">
+                                </form>
+                            </section>
+                        </section>
+                        ';
+                }
+                
+                ?>
+                
                 <section class="img-grid">
                     <?php
                     include_once '../assets/php/galleri_get_images.php';

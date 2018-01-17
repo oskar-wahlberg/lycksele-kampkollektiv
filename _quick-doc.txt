@@ -42,10 +42,11 @@ Fixede modal image funktionen till galleri sidan.
 
 Fixade remove user. Lade till så att om man är inloggad så loggas man ut först innan man tar bort användaren. Annars tas användaren bara bort.
 
+Bilduppladdning är fixad så att det fungerar. Man kan bara ladda upp en bild om man är inloggad.
+
 }
 
 TODO:
-    * Image Upload if you are logged in
     * Functions if you are logged in on the logged in page.
         Ex.
         * Remove image
